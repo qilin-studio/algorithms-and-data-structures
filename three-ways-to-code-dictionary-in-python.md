@@ -24,7 +24,7 @@ sue = dict(zip(labels, values))
 fields = ('name', 'age', 'job', 'pay')
 record = dict.fromkeys(fields, '?')
 ```
-### result:
+#### result:
 ```python
 >>> record
 {'job': '?', 'pay': '?', 'age', 'name': '?'}
